@@ -1,3 +1,18 @@
+# NixOS v18.03 for WSL
+
+🚨 Blocked by https://github.com/Microsoft/WSL/issues/3207 🚨
+
+# Notes
+
+- https://twitter.com/GeoffreyHuntley/status/995973159626031104
+- https://salsa.debian.org/rhaist-guest/WSL/blob/master/create-targz.sh
+- https://wslstorestorage.blob.core.windows.net/wslblob/Ubuntu.1604.2017.711.0_v1.appx
+- https://github.com/Microsoft/WSL/issues/2618
+- https://github.com/DDoSolitary/LxRunOffline/releases
+- https://github.com/Microsoft/WSL/blob/master/CONTRIBUTING.md#8-detailed-logs
+
+---
+
 # WSL Distro Launcher Reference Implementation
 ## Introduction 
 This is the C++ reference implementation for a Windows Subsystem for Linux (WSL) distribution installer/launcher application. Every distro package must include a launcher app, which is responsible for completing installation & registration of your distro with WSL, and for launching new distro instances atop WSL.
